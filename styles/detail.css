@@ -5,8 +5,24 @@
 #hotelImage{
     height: 500px;
     width: 500px;
+    margin-top: 2%;
+    margin-right: 4%;
 }
 #socialImage{
     height: 20px;
     width: 22px;
+}
+
+.bg{
+    margin: 0%;
+    background-color: #e0e0e0;
+    margin-top: 0px;
+    
+}
+.header{
+    background-color: rosybrown;
+}
+
+.footer{
+    background-color: rosybrown;
 }

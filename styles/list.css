@@ -7,3 +7,20 @@
     height: 250px;
     width: 250px;
 }
+.bg{
+    margin: 0%;
+    background-color: #e0e0e0;
+    margin-top: 0px;
+}
+.header{
+    background-color: rosybrown;
+}
+
+.footer{
+    background-color: rosybrown;
+}
+
+.hotelDiv{
+    background-color: rgb(132,136,139);
+    width: 40%;
+}
