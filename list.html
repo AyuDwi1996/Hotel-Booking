@@ -5,19 +5,23 @@
 <body class="bg">
     
     <header class="header">
-        <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo"></a>
-        <a href="login.html" target="_blank">Login</a>
+        <img src="assests/images/logo.png" class="logo" alt="logo">
+        <a href="login.html" target="_blank"
+            style="float: right; margin: 2%; text-decoration: none; color: black;">Login</a>
     </header>
     
+    
     <div style="margin-left: 2%; "> 
-        <ul style="padding-left: 1%;" >
-            <a href="#list-view"><li>List View</li></a>
-            <a href="#map-view"><li>Map View</li></a>
-        </ul>
-        <div>
+        <!--<ul style="padding-left: 1%;" >-->
+        <div style="margin-top: 2%; display: flex; justify-content: center;  font-family: 'Ubuntu', sans-serif; ">
+            <a href="#list-view" style="margin-right: 2%; text-decoration: none;color: black;">List View</a>
+            <a href="#map-view" style="padding-left: 2%; text-decoration: none;color: black;">Map View</a>
+        </div>
+        <!--</ul>-->
+        <div >
         <a name="list-view"></a>
         <div class="hotelDiv">
-        <a href="detail.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="hotelImage">
+        <a href="detail.html" style="text-decoration: none; color: black;"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="hotelImage">
         <h3>Radissun Blu Hotel</h3>
         <p>5 Star</p>
         <p>New Delhi</p></a>
@@ -38,16 +42,24 @@
         <div>
         <a name="map-view"></a>
         <img src="https://cdn.pixabay.com/photo/2018/01/31/05/43/web-3120321_960_720.png">
-        <p>MAP VIEW</p>
+        
         </div><!--map view-->
 
     </div>
     <footer class="footer">
-        <a href="contact.html" target="_blank">Contact Us</a>
-        <div>
-        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" height="20px" width="22px"></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" height="20px" width="22px"></a>
-        <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" height="20px" width="22px"></a>
+        <div id="myfoot">
+            <a href="contact.html" target="_blank"
+                style=" top: 30%; text-decoration: none; color: black; margin: 2%;">Contact Us</a>
+            <div style="text-align:right; margin: 2%;">
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"
+                        id="socialImage"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
+                        id="socialImage"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"
+                        id="socialImage"></a>
+            </div>
+        </div>
+        <div class="para">
         <p>&#169; 2020 ROOM SEARCH PVT. LTD.</p>
         </div>
     </footer>

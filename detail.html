@@ -4,16 +4,18 @@
 </head>
 <body class="bg">
     <header class="header">
-        <a href="index.html"><img src="assests/images/logo.png" class="logo" alt="logo"></a>
-        <a href="login.html" target="_blank">Login</a>
+        <img src="assests/images/logo.png" class="logo" alt="logo">
+        <a href="login.html" target="_blank"
+            style="float: right; margin: 2%; text-decoration: none; color: black;">Login</a>
     </header>
     <div style="margin-left: 4%;">
-        <a href="index.html"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="hotelImage"></a>
-        <form action="payment.html">
-            <label for="adults">Adults:</label>
+        <div class="box">
+        <a href="index.html" style="height: 350px;width: 80%;margin: 4%;"><img src="https://media-cdn.tripadvisor.com/media/photo-w/17/b3/09/b4/by-the-poolside.jpg" id="hotelImage"></a>
+        <form action="payment.html" style="margin:0% ;padding-top: 5%; padding-left:2%;border-left: 1px solid black;">
+            <label for="adults" >Adults:</label>
             <input type="number" min="1" id="adults" required></br>
-            <label for="name">Name:</label>
-            <input type="text" id="name" required></br>
+            <label for="name" >Name:</label>
+            <input type="text"  id="name" required></br>
             <label for="date">From Date:</label>
             <input type="date" id="date" required></br>
             <label for="date2">To Date:</label>
@@ -21,7 +23,9 @@
             <label for="total">Total:</label>
             <input type="text" id="total" readonly></br>
             <input type="submit" class="Book Now" value="Book Now">
+            
         </form>
+        </div>
         <h3>Radissun Blu Hotel</h3>
         <p>RATING</p>
         <p>5 Star</p>
@@ -37,11 +41,19 @@
         <p>rbfjirg wbfjwbv iwbjdkwbv iwbijwqb iwdvbcwjkdbv wiqjbcwijbf</p>
     </div>
     <footer class="footer">
-        <a href="contact.html" target="_blank">Contact Us</a>
-        <div>
-        <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png" id="socialImage"></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png" id="socialImage"></a>
-        <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png" id="socialImage"></a>
+        <div id="myfoot">
+            <a href="contact.html" target="_blank"
+                style=" top: 30%; text-decoration: none; color: black; margin: 2%;">Contact Us</a>
+            <div style="text-align:right; margin: 2%;">
+                <a href="https://www.facebook.com" target="_blank"><img src="assests/images/facebook.png"
+                        id="socialImage"></a>
+                <a href="https://www.instagram.com" target="_blank"><img src="assests/images/instagram.png"
+                        id="socialImage"></a>
+                <a href="https://twitter.com" target="_blank"><img src="assests/images/twitter.png"
+                        id="socialImage"></a>
+            </div>
+        </div>
+        <div class="para">
         <p>&#169; 2020 ROOM SEARCH PVT. LTD.</p>
         </div>
     </footer>

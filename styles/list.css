@@ -1,3 +1,4 @@
+@import url(https://fonts.googleapis.com/css2?family=Ubuntu&display=swap);
 .logo{
     height: 60px;
     width: 60px;
@@ -12,15 +13,49 @@
     background-color: #e0e0e0;
     margin-top: 0px;
 }
+
 .header{
     background-color: rosybrown;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    line-height: 0.5vh;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    
 }
 
 .footer{
     background-color: rosybrown;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 0.3vh;
+    position: sticky;
+    bottom: 0;
 }
 
 .hotelDiv{
     background-color: rgb(132,136,139);
     width: 40%;
+    margin: 2%;
+    float : left;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: none;
 }
+#socialImage{
+    height: 20px;
+    width: 22px;
+}
+#myfoot{
+    display: flex;
+    justify-content: space-between;
+}
+.para{
+    font-size: 10px;
+    text-align:center;
+    margin-bottom: 0%;
+    padding-bottom: 0.5%;
+}
+
+
